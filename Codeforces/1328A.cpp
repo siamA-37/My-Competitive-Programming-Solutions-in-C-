@@ -8,12 +8,13 @@ int main() {
     cin>>t;
     while(t--){
         cin>>a>>b;
-        while(a%b != 0){
-            moves++;
-             ++a;
+        if(a%b == 0){
+            moves=0;
+        }
+        else{
+            moves=b-(a%b);
         }
         cout<<moves<<endl;
-        moves=0;
     }
     
     return 0;
