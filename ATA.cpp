@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int A,B;
+    cin>>A>>B;
+    if(A+B == 9 || A-B==9 || (float)A/B==9.00 || A*B == 9){
+        cout<<"Nine"<<endl;
+    }
+    else{
+        cout<<"Nein"<<endl;
+    }
+    return 0;
+}
