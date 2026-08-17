@@ -19,7 +19,7 @@ int main()
     cout<<"------------Erase a character------------"<<endl;
     s.erase(s.begin());
     cout<<s<<endl;
-    //Remove all same character 
+    //Remove all same character in a range 
     s="aabbbssskk";
     s.erase(remove(s.begin(),s.end(),'s'),s.begin()+6);
     cout<<s<<endl;
