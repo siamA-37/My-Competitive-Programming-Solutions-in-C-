@@ -23,5 +23,6 @@ int main()
     s="aabbbssskk";
     s.erase(remove(s.begin(),s.end(),'s'),s.begin()+6);
     cout<<s<<endl;
+    
     return 0;
 }
